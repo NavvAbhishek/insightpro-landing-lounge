@@ -11,6 +11,7 @@ import { playersData, PlayerData, PlayerStats } from "@/data/playersData";
 // --- COMPONENT IMPORT ---
 import PlayerSelectionModal from "@/components/PlayerSelectionModal"; // Import the modal // <<<--- ADDED IMPORT
 import { Link } from "react-router-dom";
+import SortedPlayers from "@/components/SortedPlayers";
 
 // --- TYPE DEFINITIONS ---
 // (Interfaces PlayerData and PlayerStats are imported)
@@ -166,8 +167,8 @@ const StatRow: React.FC<StatRowProps> = ({
     leftValue !== rightValue;
 
   // Determine colors based on comparison logic (higher = green, lower = red, equal/non-numeric = gray)
-  let leftBg = "bg-gray-700";
-  let rightBg = "bg-gray-700";
+  let leftBg = "bg-green-600";
+  let rightBg = "bg-green-600";
 
   if (showHighlight) {
     leftBg = isLeftHigher ? "bg-green-600" : "bg-red-700";
@@ -582,6 +583,7 @@ const PlayerComparison: React.FC = () => {
           targetSide={selectingPlayerSide!} // Use non-null assertion as it's set when modal opens
         />
       </div>
+      <SortedPlayers/>
     </> // <<<--- CLOSE FRAGMENT --- >>>
   );
 };

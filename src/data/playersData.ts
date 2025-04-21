@@ -59,7 +59,7 @@ export interface PlayerStats {
 export const playersData: PlayerData[] = [
     {
         id: 1,
-        name: 'KUSAL MENDIS',
+        name: 'Kusal Mendis',
         country: 'Sri Lanka',
         flagUrl: SlFlagImg,
         imageUrl: KusalMendisImg,
@@ -98,7 +98,7 @@ export const playersData: PlayerData[] = [
     },
     {
         id: 2,
-        name: 'PATHUM NISSANKA',
+        name: 'Pathum Nissanka',
         country: 'Sri Lanka',
         flagUrl: SlFlagImg,
         imageUrl: PathumNissankaImg,

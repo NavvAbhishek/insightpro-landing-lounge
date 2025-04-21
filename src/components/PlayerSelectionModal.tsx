@@ -86,7 +86,7 @@ const PlayerSelectionModal: React.FC<PlayerSelectionModalProps> = ({
                     <Button
                         variant="outline" // Assuming you have variants defined in Button component
                         onClick={onClose}
-                        className="border-gray-500 text-gray-300 hover:bg-gray-700"
+                        className="border-gray-500 text-black hover:bg-gray-700"
                     >
                         Cancel
                     </Button>
