@@ -19,9 +19,9 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70"></div>
       <div className="container relative z-10 px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
-            Predict Cricket Matches with{" "}
-            <span className="text-cricket-400">Expert Precision</span>
+          <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl">
+          Analyze Player Performance and Provide Predictions Using {" "}
+            <span className="text-cricket-400">ML/AI in Cricket</span>
           </h1>
           <p className="mb-10 text-xl text-slate-300">
             Leverage advanced analytics and AI to make informed cricket
