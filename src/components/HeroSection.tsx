@@ -1,7 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   const [email, setEmail] = useState("");
@@ -20,14 +20,18 @@ const HeroSection = () => {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
-            Predict Cricket Matches with <span className="text-cricket-400">Expert Precision</span>
+            Predict Cricket Matches with{" "}
+            <span className="text-cricket-400">Expert Precision</span>
           </h1>
           <p className="mb-10 text-xl text-slate-300">
-            Leverage advanced analytics and AI to make informed cricket predictions. 
-            Stay ahead of the game with InsightPro's powerful prediction tools.
+            Leverage advanced analytics and AI to make informed cricket
+            predictions. Stay ahead of the game with InsightPro's powerful
+            prediction tools.
           </p>
-          
-          <form onSubmit={handleSubmit} className="mx-auto flex max-w-md flex-col gap-4 sm:flex-row">
+          <form
+            onSubmit={handleSubmit}
+            className="mx-auto flex max-w-md flex-col gap-4 sm:flex-row"
+          >
             <input
               type="email"
               placeholder="Enter your email"
@@ -36,15 +40,13 @@ const HeroSection = () => {
               onChange={(e) => setEmail(e.target.value)}
               required
             />
-            <Button 
-              type="submit" 
-              className="hero-button hero-button-primary"
-            >
-              Get Started
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <Link to="/player-comparison">
+              <Button type="submit" className="hero-button hero-button-primary">
+                Get Started
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
           </form>
-          
           <div className="mt-6 flex items-center justify-center space-x-4">
             <p className="text-sm text-slate-200">No credit card required</p>
             <span className="h-1 w-1 rounded-full bg-slate-300"></span>
