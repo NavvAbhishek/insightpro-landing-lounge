@@ -30,16 +30,16 @@ const HeroSection = () => {
           </p>
           <form
             onSubmit={handleSubmit}
-            className="mx-auto flex max-w-md flex-col gap-4 sm:flex-row"
+            className="mx-auto flex max-w-md flex-col justify-center items-center gap-4 sm:flex-row"
           >
-            <input
+            {/* <input
               type="email"
               placeholder="Enter your email"
               className="flex h-11 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-cricket-600 focus:ring-offset-2"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-            />
+            /> */}
             <Link to="/player-comparison">
               <Button type="submit" className="hero-button hero-button-primary">
                 Get Started

@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import { FaExchangeAlt } from "react-icons/fa";
 import { Button } from "@/components/ui/button"; // Assuming Button component exists
 
+import Logo from "@/assets/InsightPro_Logo.png"
+
 import { Menu, X } from "lucide-react";
 // --- DATA IMPORT ---
 import { playersData, PlayerData, PlayerStats } from "@/data/playersData";
@@ -392,7 +394,8 @@ const PlayerComparison: React.FC = () => {
           {/* Logo/Brand Name */}
           <div className="flex items-center gap-2">
             {/* Make sure you have 'cricket-600' defined in your tailwind.config.js */}
-            <Link to="/">
+            <Link to="/" className="flex items-center gap-2">
+            <img src={Logo} className="h-11 w-11" alt="" />
               <span className="text-cricket-600 font-bold text-2xl cursor-pointer">
                 InsightPro
               </span>
