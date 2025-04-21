@@ -68,7 +68,7 @@ export const playersData: PlayerData[] = [
         battingStyle: 'Right Hand Bat',
         bowlingStyle: '--',
         t20i_stats: {
-            ppv: 9.22,
+            ppv: 9.30,
             matches: 78,
             innings: 78,
             runs: 1920,
@@ -107,7 +107,7 @@ export const playersData: PlayerData[] = [
         battingStyle: 'Right Hand Bat',
         bowlingStyle: '--',
         t20i_stats: {
-            ppv: 9.57,
+            ppv: 9.39,
             matches: 62,
             innings: 61,
             runs: 1734,
@@ -146,7 +146,7 @@ export const playersData: PlayerData[] = [
         battingStyle: 'Left hand Bat',
         bowlingStyle: '--',
         t20i_stats: {
-            ppv: 10.32,
+            ppv: 10.37,
             matches: 77,
             innings: 76,
             runs: 2056,
@@ -185,7 +185,7 @@ export const playersData: PlayerData[] = [
         battingStyle: 'Left hand Bat',
         bowlingStyle: '--',
         t20i_stats: {
-            ppv: 8.08,
+            ppv: 8.15,
             matches: 58,
             innings: 57,
             runs: 1247,
@@ -224,7 +224,7 @@ export const playersData: PlayerData[] = [
         battingStyle: 'Right hand Bat',
         bowlingStyle: 'Right arm Offbreak',
         t20i_stats: {
-            ppv: 3.90,
+            ppv: 3.79,
             matches: 68,
             innings: 61,
             runs: 1062,
@@ -264,7 +264,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Right hand Bat', 
     bowlingStyle: 'Right arm Medium', 
     t20i_stats: { 
-        ppv: 7.54, 
+        ppv: 7.42, 
         matches: 90,  
         innings: 73,  
         runs: 1416,  
@@ -344,7 +344,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Right hand Bat', 
     bowlingStyle: 'Right arm Medium', 
     t20i_stats: { 
-        ppv: 5.79, 
+        ppv: 5.92, 
         matches: 102,  
         innings: 94,  
         runs: 1456,  
@@ -384,7 +384,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Left hand Bat', 
     bowlingStyle: 'Right arm Offbreak', 
     t20i_stats: { 
-        ppv: 5.12, 
+        ppv: 5.31, 
         matches: 46,  
         innings: 45,  
         runs: 741,  
@@ -424,7 +424,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Left hand Bat', 
     bowlingStyle: '-', 
     t20i_stats: { 
-        ppv: 6.98, 
+        ppv: 7.25, 
         matches: 28,  
         innings: 27,  
         runs: 480,  
@@ -464,7 +464,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Left hand Bat', 
     bowlingStyle: 'Right arm Offbreak, Slow Left arm Orthodox', 
     t20i_stats: { 
-        ppv: 6.17, 
+        ppv: 6.32, 
         matches: 23,  
         innings: 21,  
         runs: 381,  
@@ -504,7 +504,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Right hand Bat', 
     bowlingStyle: 'Legbreak', 
     t20i_stats: { 
-        ppv: 4.43, 
+        ppv: 4.81, 
         matches: 79,  
         innings: 67,  
         runs: 712,  
@@ -544,7 +544,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Right hand Bat', 
     bowlingStyle: '-', 
     t20i_stats: { 
-        ppv: 4.49, 
+        ppv: 4.47, 
         matches: 19,  
         innings: 18,  
         runs: 310,  
@@ -624,7 +624,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Right hand Bat',
     bowlingStyle: 'Right arm Medium',
     t20i_stats: {
-        ppv: 2.39,
+        ppv: 2.40,
         matches: 42, 
         innings: 34, 
         runs: 291, 
@@ -663,7 +663,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Left hand Bat',
     bowlingStyle: 'Right arm Medium',
     t20i_stats: {
-        ppv: 8.01,
+        ppv: 8.18,
         matches: 44, 
         innings: 39, 
         runs: 733, 
@@ -702,7 +702,7 @@ export const playersData: PlayerData[] = [
     battingStyle: 'Left hand Bat',
     bowlingStyle: 'Right arm Medium',
     t20i_stats: {
-        ppv: 4.05,
+        ppv: "-",
         matches: "-", 
         innings: "-", 
         runs: "-", 
